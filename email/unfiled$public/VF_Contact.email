@@ -1,0 +1,9 @@
+<messaging:emailTemplate subject="Welcome to N26 Survey" recipientType="Contact" relatedToType="Contact" language="{!if(recipient.language__c = 'DE','DE','EN')}">
+<messaging:htmlEmailBody >
+<html>
+        <body>
+         {!$Label.email_greeting} {!recipient.name}{!$Label.email_body} <a href="http://n26.com/survey/{!recipient.ID}">Survery Link</a>
+        </body>
+    </html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

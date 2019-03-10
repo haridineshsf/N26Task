@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>email_body</fullName>
+        <categories>N26 Survey email template</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>email_body</shortDescription>
+        <value>, please fill out our survey:</value>
+    </labels>
+    <labels>
+        <fullName>email_greeting</fullName>
+        <categories>N26 Survey email template</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>email_greeting</shortDescription>
+        <value>Hey</value>
+    </labels>
+</CustomLabels>
